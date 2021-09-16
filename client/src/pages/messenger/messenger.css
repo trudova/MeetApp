@@ -1,0 +1,85 @@
+.messenger{
+    height: calc(100hv - 3.5rem);
+    display: flex;
+}
+.chatMenu{
+flex: 3.5;
+}
+.chatBox{
+flex: 5.5;
+}
+.chatOnline{
+flex: 3.5;
+}
+.chatMenuWrapper, .chatBoxWrapper, .chatOnlineWrapper{
+    padding: 0.7rem;
+    height: 100%;
+}
+/* menu */
+.chatMenuInput{
+width: 90%;
+padding: 0.7rem 0.2rem;
+border: none;
+
+border-bottom: solid 1px gray;
+font-family: 'Cookie', cursive;
+font-size: 1.2rem;
+}
+.chatMenuInput:focus{
+outline: none;
+}
+
+/* box */
+.chatBoxWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chatBoxTop{
+    height: 35rem;
+    padding-right: 0.7rem;
+    overflow-y: scroll;
+}
+.noConversationText{
+    font-size:5rem;
+    color: rgba(186, 186, 186, 0.584);
+    font-family: 'Cookie', cursive;
+  margin-top: 10%;
+   
+    cursor: none;
+
+}
+.chatBoxBottom{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chatMessageInput{
+    width: 80%;
+    height: 6rem;
+    padding: 0.7rem;
+    background-color: #EAEAEA;
+    border: none;
+    border-radius: 0.7rem;
+}
+.chatMessageInput:focus{
+    outline: none;
+}
+.chatSubmitButton{
+    width: 5rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    background-color: #3DB2FF;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.7rem;
+    transition: all 0.3s ease;
+
+}
+.chatSubmitButton:hover{
+   background-color: #3db1ffac; 
+    font-size: 1.3rem;
+}

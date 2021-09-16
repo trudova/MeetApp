@@ -1,0 +1,23 @@
+.conversation{
+    display: flex;
+    align-items: center;
+    padding: 0.7rem;
+    cursor: pointer;
+    margin-top: 0.8rem;
+    transition: all 0.3e ease;
+}
+.conversation:hover{
+     background-color: #d1ebfc70; 
+}
+.conversationImg{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1.2rem;
+}
+.conversationName{
+font-family: 'Cookie', cursive;
+font-weight: 500;
+font-size: 1.5rem;
+}

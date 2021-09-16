@@ -1,0 +1,104 @@
+.share {
+  width: 100%;
+  border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 3px 5px #a0a0a0eb; 
+    box-shadow: 1px 1px 12px 3px #a0a0a0eb;
+}
+
+.shareWrapper {
+  padding: 0.7rem;
+}
+
+.shareTop {
+  display: flex;
+  align-items: center;
+}
+
+.shareProfileImg {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.7rem;
+}
+
+.shareInput {
+  border: none;
+  width: 80%;
+}
+
+.shareInput:focus {
+  outline: none;
+}
+
+.shareHr {
+  margin: 1.2rem;
+}
+
+.shareBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shareOptions{
+    display: flex;
+    margin-left: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.shareOption{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.shareIcon{
+    font-size: 3rem;
+    margin-right: 0.3rem;
+}
+
+.shareOptionText{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Cookie', cursive;
+    font-size: 1.5rem;
+}
+
+.shareButton{
+    border: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.5rem;
+    background-color: #3DB2FF;
+    font-weight: 500;
+    margin-right: 1.2rem;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s linear;
+    font-family: 'Cookie', cursive;
+    font-size: 1.2rem;
+}
+.shareButton:hover{
+    font-size: 1.3rem;
+    background-color: #3db1ffaf;
+}
+
+.shareImgContainer{
+  padding: 0 20px 10px 20px;
+  position: relative;
+}
+
+
+.shareImg{
+  width: 100%;
+  object-fit: cover;
+}
+
+.shareCancelImg{
+  position: absolute;
+  top: 0;
+  right: 1.2rem;
+  cursor: pointer;
+  opacity: 0.7;
+}

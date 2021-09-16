@@ -1,0 +1,99 @@
+.rightBar{
+    flex: 3.5;
+}
+.rightbarWrapper{
+    padding: 1.2rem 1.2rem 0 0;
+    margin-left: 1.2rem;
+}
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+}
+.birthdayImg{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.7rem;
+}
+.birthdayText{
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #FF2E63;
+    font-family: 'Cookie', cursive;
+    text-shadow: 0.3px 0.3px 0.3px #252A34;
+}
+.rightbarAd{
+    width: 100%;
+    border-radius: 0.7rem;
+    margin: 1.8rem 0;
+    object-fit: cover;
+}
+.rightbarTitle{
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 1.2rem;
+    color: #FF2E63;
+    font-family: 'Cookie', cursive;
+    text-shadow: 0.3px 0.3px 0.3px #252A34;
+}
+
+.rightbarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.rightbarInfo{
+    margin-bottom: 1.8rem;
+}
+.rightbarInfoItem{
+    margin-bottom: 0.7rem;
+}
+.rightbarInfoKey{
+    font-weight: 500;
+    margin-right: 1rem;
+    color: #3d3e41;
+}
+.rightbarInfoValue{
+    font-weight: 300;
+}
+.rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+}
+
+.rightbarFollowingImg{
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.rightbarFollowButton{
+    margin-top: 1.8rem;
+    margin-bottom: 0.7rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #3DB2FF;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.7rem;
+    display: flex;
+    align-items: center;
+    text-shadow: 0.5px 0.5px 0.5px #252A34;
+    cursor: pointer;
+    transition: all 0.3s linear;
+
+}
+.rightbarFollowButton:hover{
+    font-size: large;
+    background-color: #3db1ffa8;
+}
+.rightbarFollowButton:focus{
+    outline: none;
+}
